@@ -87,7 +87,7 @@ function Hero() {
               </a>
             </div>
 
-            <p className="hero-note">60 Days free trial · No credit card required</p>
+                      <p className="hero-note">60 Days free trial · No credit card required</p>
           </div>
         </div>
       </section>
