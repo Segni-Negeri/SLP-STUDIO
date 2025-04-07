@@ -1,0 +1,249 @@
+.heroSection-wrapper {
+  background-color: #f9fafb;
+}
+
+.heroSection-hero {
+  position: relative;
+  padding: 3rem 0;
+}
+
+@media (min-width: 640px) {
+  .heroSection-hero {
+    padding: 4rem 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heroSection-hero {
+    padding-bottom: 10rem;
+  }
+}
+
+.heroSection-hero-bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.heroSection-hero-bg-img {
+  width: 100%;
+  height: auto;
+  transform-origin: bottom right;
+  transform: scale(1.5);
+}
+
+@media (min-width: 1024px) {
+  .heroSection-hero-bg-img {
+    width: auto;
+    margin: 0 auto;
+    object-fit: cover;
+    transform: scale(0.75);
+  }
+}
+
+.heroSection-hero-container {
+  position: relative;
+  padding: 0 1rem;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+@media (min-width: 640px) {
+  .heroSection-hero-container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heroSection-hero-container {
+    padding: 0 2rem;
+  }
+}
+
+.heroSection-hero-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .heroSection-hero-content {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+}
+
+.heroSection-hero-text {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .heroSection-hero-text {
+    padding: 0 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heroSection-hero-text {
+    text-align: left;
+    padding: 0;
+    padding-right: 5rem;
+  }
+}
+
+.heroSection-hero-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #111827;
+  font-family: 'YourFont', sans-serif;
+}
+
+@media (min-width: 640px) {
+  .heroSection-hero-title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heroSection-hero-title {
+    font-size: 3.75rem;
+  }
+}
+
+.heroSection-hero-subtitle {
+  margin-top: 0.5rem;
+  font-size: 1.125rem;
+  color: #4b5563;
+  font-family: 'Inter', sans-serif;
+}
+
+@media (min-width: 640px) {
+  .heroSection-hero-subtitle {
+    margin-top: 1.5rem;
+  }
+}
+
+.heroSection-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+  transition: background-color 0.2s ease-in-out;
+  font-family: 'YourFont', sans-serif;
+  text-decoration: none;
+}
+
+@media (min-width: 640px) {
+  .heroSection-button {
+    margin-top: 2.5rem;
+  }
+}
+
+.heroSection-button:hover {
+  background-color: #4b5563;
+}
+
+.heroSection-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #111827;
+}
+
+.heroSection-review-section {
+  margin-top: 2rem;
+}
+
+@media (min-width: 640px) {
+  .heroSection-review-section {
+    margin-top: 4rem;
+  }
+}
+
+.heroSection-stars {
+  display: flex;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+@media (min-width: 1024px) {
+  .heroSection-stars {
+    justify-content: flex-start;
+  }
+}
+
+.heroSection-star {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: #fdb241;
+}
+
+.heroSection-review-quote {
+  margin-top: 1.5rem;
+}
+
+.heroSection-quote-text {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #111827;
+  font-family: 'YourFont', sans-serif;
+}
+
+.heroSection-quote-subtext {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #4b5563;
+  font-family: 'Inter', sans-serif;
+}
+
+.heroSection-review-author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.75rem;
+}
+
+@media (min-width: 1024px) {
+  .heroSection-review-author {
+    justify-content: flex-start;
+  }
+}
+
+.heroSection-author-avatar {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 9999px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.heroSection-author-name {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111827;
+  font-family: 'YourFont', sans-serif;
+}
+
+.heroSection-hero-image {
+  grid-column: 1 / -1;
+}
+
+@media (min-width: 1024px) {
+  .heroSection-hero-image {
+    grid-column: auto;
+  }
+}
+
+.heroSection-hero-img {
+  width: 100%;
+  margin: 0 auto;
+}
