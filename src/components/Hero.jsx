@@ -95,7 +95,7 @@ const Hero = () => {
               </span>
             </p>
 
-// In Header.js, replace the hero-buttons div with:
+
              <div className="hero-buttons">
                <Button href="#" primary>Get more customers</Button>
                <a href="#" className="secondary-button">
