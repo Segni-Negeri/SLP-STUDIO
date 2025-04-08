@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import './styles/tailwind.css';
 import Main from './components/Main';
 import BlogScroll from './components/BlogScroll';
+import Pricing from './components/Pricing';
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <Hero></Hero>
     <Main></Main>
     <BlogScroll></BlogScroll>
+    <Pricing></Pricing>
   </>
   )
 }
