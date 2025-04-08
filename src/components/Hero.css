@@ -2,6 +2,7 @@
 .wrapper {
   overflow-x: hidden;
   background-color: #f9fafb;
+  
 }
 
 .header {
@@ -76,6 +77,7 @@
 
 .desktop-nav {
   display: none;
+  color: #ffffff;
 }
 
 @media (min-width: 1024px) {
@@ -96,6 +98,7 @@
 
 .desktop-actions {
   display: none;
+    color: #ffffff;
 }
 
 @media (min-width: 1024px) {
@@ -117,7 +120,7 @@
 }
 
 .nav-link:hover {
-  color: rgba(17, 24, 39, 0.5);
+  color:  #0563f9;
 }
 
 .nav-link:focus {

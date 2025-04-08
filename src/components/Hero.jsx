@@ -33,16 +33,12 @@ const Hero = () => {
       <header className="header">
         <div className="container">
           <div className="header-content">
-            <div className="logo">
-              <a href="#" className="logo-link">
-                <img
-                  src="https://cdn.rareblocks.xyz/collection/clarity/images/logo.svg"
-                  alt="Logo"
-                  className="logo-img"
-                />
-              </a>
-            </div>
-
+          <div className="flex items-center mb-6 md:mb-0">
+            <a href="/" className="flex items-center space-x-1 transition-transform hover:scale-105">
+              <span className="text-blue-500 font-bold text-2xl">/</span>
+              <span className="font-bold text-xl tracking-wide">NEXORA</span>
+            </a>
+          </div>
             <button
               className="mobile-menu-toggle"
               onClick={() => setExpanded(!expanded)}
